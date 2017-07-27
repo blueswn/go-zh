@@ -13,6 +13,19 @@
 	* [1.2 导入（imports）](https://github.com/alphaeye/go-zh/blob/master/01.02.md)
 	* [1.3 导出名（Exported names）](https://github.com/alphaeye/go-zh/blob/master/01.03.md)
 	* [1.4 函数（Functions）](https://github.com/alphaeye/go-zh/blob/master/01.04.md)
+	* [1.5 函数（续）(Functions continued)](https://github.com/alphaeye/go-zh/blob/master/01.05.md)
+	* [1.6 命名返回值（Multiple results）](https://github.com/alphaeye/go-zh/blob/master/01.06.md)
+	* [1.7 命名返回值（Multiple results）](https://github.com/alphaeye/go-zh/blob/master/01.07.md)
+	* [1.8 变量（Variables）](https://github.com/alphaeye/go-zh/blob/master/01.08.md)
+	* [1.9 初始化变量（Variables with initializers）](https://github.com/alphaeye/go-zh/blob/master/01.09.md)
+	* [1.10 短声明变量（Short variable declarations）](https://github.com/alphaeye/go-zh/blob/master/01.10.md)
+	* [1.11 基本类型（Basic types）](https://github.com/alphaeye/go-zh/blob/master/01.11.md)
+	* [1.12 零值（Zero values）](https://github.com/alphaeye/go-zh/blob/master/01.12.md)
+	* [1.13 类型转换（Type conversions）](https://github.com/alphaeye/go-zh/blob/master/01.13.md)
+	* [1.14 类型推导（Type inference）](https://github.com/alphaeye/go-zh/blob/master/01.14.md)
+	* [1.15 常量（Constants）](https://github.com/alphaeye/go-zh/blob/master/01.15.md)
+	* [1.16 数值常量（Numeric Constants）](https://github.com/alphaeye/go-zh/blob/master/01.16.md)
+	* [1.17 恭喜！（Congratulations!）](https://github.com/alphaeye/go-zh/blob/master/01.17.md)
 
 * 2：流程控制语句：for、if、else 、switch 和 defer。（学习如何用条件、循环、开关和推迟语句控制代码的流程。）
 
