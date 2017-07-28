@@ -41,4 +41,4 @@ Go 语言的交互式简介，它分为三节。第一节覆盖了基本语法�
 ## 文章
 
 ## 关于
-更多详情见 [Go 编程语言](https://golang.org/doc/install)。
+更多详情见 [Go 编程语言](https://go-zh.org/)。
