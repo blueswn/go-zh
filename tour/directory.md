@@ -7,7 +7,7 @@
 
 学习如何使用本指南：包括如何在不同的课程之间切换，以及如何运行代码。
 
-# 目录
+# [目录](https://github.com/alphaeye/go-zh/blob/master/tour/directory.md)
 
 * 前言
 
