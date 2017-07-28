@@ -9,4 +9,4 @@
 Go 是一门开源的编程语言，它能让你轻松地构建简单、可靠而高效的软件。
 
 ## 关于
-更多详情见 [Go 编程语言](https://golang.org/doc/install)。
+更多详情见 [Go 编程语言](https://go-zh.org/)。
