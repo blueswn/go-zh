@@ -37,6 +37,20 @@
 	* [1.17 恭喜！（Congratulations!）](https://github.com/alphaeye/go-zh/blob/master/tour/01.17.md)
 
 * 2：流程控制语句：for、if、else 、switch 和 defer。（学习如何用条件、循环、开关和推迟语句控制代码的流程。）
+	* [2.1 for](https://github.com/alphaeye/go-zh/blob/master/tour/02.01.md)
+	* [2.2 for（续）（For continued）](https://github.com/alphaeye/go-zh/blob/master/tour/02.02.md)
+	* [2.3 for 是 Go 的 “while”（For is Go's "while"）](https://github.com/alphaeye/go-zh/blob/master/tour/02.03.md)
+	* [2.4 死循环（Forever）](https://github.com/alphaeye/go-zh/blob/master/tour/02.04.md)
+	* [2.5 if](https://github.com/alphaeye/go-zh/blob/master/tour/02.05.md)
+	* [2.6 if 的便捷语句（If with a short statement）](https://github.com/alphaeye/go-zh/blob/master/tour/02.06.md)
+	* [2.7 if 和 else（If and else）](https://github.com/alphaeye/go-zh/blob/master/tour/02.07.md)
+	* [2.8 练习：循环和函数（Exercise: Loops and Functions）](https://github.com/alphaeye/go-zh/blob/master/tour/02.08.md)
+	* [2.9 switch](https://github.com/alphaeye/go-zh/blob/master/tour/02.09.md)
+	* [2.10 switch 的执行顺序（Switch evaluation order）](https://github.com/alphaeye/go-zh/blob/master/tour/02.10.md)
+	* [2.11 没有条件的 switch（Switch with no condition）](https://github.com/alphaeye/go-zh/blob/master/tour/02.11.md)
+	* [2.12 defer（Defer）](https://github.com/alphaeye/go-zh/blob/master/tour/02.12.md)
+	* [2.13 defer 栈（Stacking defers）](https://github.com/alphaeye/go-zh/blob/master/tour/02.13.md)
+	* [2.14 恭喜！（Congratulations!）](https://github.com/alphaeye/go-zh/blob/master/tour/02.14.md)
 
 * 3：复杂类型： struct、slice 和 map。（学习如何基于已有类型定义新的类型：本课涵盖了结构体、数组、slice 和 map。）
 
