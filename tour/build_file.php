@@ -1,7 +1,7 @@
 <?php
 
-$prefix = '03';
-$range = range(5, 27);
+$prefix = '04';
+$range = range(1, 26);
 
 var_dump($range);
 echo PHP_EOL;
