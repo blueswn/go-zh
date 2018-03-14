@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<!-- saved from url=(0036)https://blog.go-zh.org/package-names -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+	<title>命名的学问 - Go 语言博客</title>
+	<link type="text/css" rel="stylesheet" href="./命名的学问 - Go 语言博客_files/style.css">
+	<link rel="alternate" type="application/atom+xml" title="blog.go-zh.org - Atom Feed" href="https://blog.go-zh.org/feed.atom">
+	<script type="text/javascript">window.initFuncs = [];</script>
+	<style>
+		#sidebar {
+			float: right;
+			padding-left: 20px;
+			width: 250px;
+			background: white;
+		}
+		#sidebar p, #sidebar ul {
+			margin: 10px 5px;
+		}
+		#sidebar h4 {
+			margin: 10px 5px;
+		}
+		#sidebar ul {
+			padding: 0;
+		}
+		#sidebar li {
+			list-style-type: none;
+		}
+		#content .author {
+			font-style: italic;
+		}
+		#content .article {
+			margin-bottom: 50px;
+		}
+		#content .date {
+			color: #999;
+		}
+		#content .tags {
+			color: #999;
+			font-size: smaller;
+		}
+		#content .iframe, #content .image {
+			margin: 20px;
+		}
+		#content .title {
+			margin: 20px 0;
+		}
+	</style>
+</head>
+<body>
+
+<div id="topbar"><div class="container">
+
+<form method="GET" action="https://go-zh.org/search">
+<div id="menu">
+<a href="https://go-zh.org/doc/">文档</a>
+<a href="https://go-zh.org/pkg/">包</a>
+<a href="https://go-zh.org/project/">项目</a>
+<a href="https://go-zh.org/help/">帮助</a>
+<a href="https://blog.go-zh.org/">博客</a>
+<input type="text" id="search" name="q" class="inactive" value="搜索" placeholder="搜索">
+</div>
+<div id="heading"><a href="https://go-zh.org/">Go 编程语言</a></div>
+</form>
+
+</div></div>
+
+<div id="page" tabindex="-1" style="outline: 0px;">
+<div class="container">
+
+<div id="sidebar">
+	
+		
+			<h4>下一篇</h4>
+			<p><a href="https://blog.go-zh.org/examples">Testable Examples in Go</a></p>
+		
+		
+		
+			<h4>上一篇</h4>
+			<p><a href="https://blog.go-zh.org/errors-are-values">Errors are values</a></p>
+		
+	
+	
+	<h4>链接</h4>
+	<ul>
+	<li><a href="https://golang.org/">golang.org</a></li>
+	<li><a href="https://go-zh.org/">golang.org 中文版</a></li>
+	<li><a href="https://go-zh.org/doc/install.html">安装 Go</a></li>
+	<li><a href="https://tour.go-zh.org/">Go 指南</a></li>
+	<li><a href="https://go-zh.org/doc/">Go 文档</a></li>
+	<li><a href="https://groups.google.com/group/golang-nuts">Go 邮件列表（英文）</a></li>
+	<li><a href="https://groups.google.com/group/golang-china">Go 邮件列表（中文）</a></li>
+	<li><a href="https://plus.google.com/101406623878176903605">Go on Google+</a></li>
+	<li><a href="https://plus.google.com/112164155169467723645/posts">Go+ 社区</a></li>
+	<li><a href="https://twitter.com/golang">Go on Twitter</a></li>
+	</ul>
+	
+	<p><a href="https://blog.go-zh.org/index">博客索引</a></p>
+</div>
+
+<div id="content">
+	<h1><a href="https://blog.go-zh.org/">Go 博客</a></h1>
+	
+	
+	<div class="article">
+		<h3 class="title"><a href="https://blog.go-zh.org/package-names">命名的学问</a></h3>
+		<p class="date">2015/02/04</p>
+		
+
+  
+  
+    
+      
+  <h4 id="TOC_1.">引言</h4>
+  
+  
+  <p>
+    Go 代码通过包来组织。在包内部，代码可以引用包中定义的任何标识符（名字），
+
+
+    而该包的用户则只能引用其中已导出的类型、函数、常量和变量。
+
+
+    这种引用总是将包名作为前缀：例如 <code>foo.Bar</code> 就引用了已导入包 <code>foo</code> 中的已导出名 <code>Bar</code> 。
+  </p>
+  
+
+  
+  <p>
+    好的包名能让代码组织得更好。包名提供了其内容的上下文，让用户更容易理解该包的用途和用法。
+
+
+    包名也有助于维护者在该包的演化过程中决定哪些东西属于它，哪些不属于它。
+
+
+    恰当的包名更易帮你找所需的代码。
+  </p>
+  
+
+  
+  <p>
+    实效 Go 编程中提供了一份关于包、类型、函数和变量的
+
+
+    <a href="https://go-zh.org/doc/effective_go.html#%E5%91%BD%E5%90%8D" target="_blank">命名指南</a>。
+
+
+    本文拓展了该指南，考察了标准库中的命名，也讨论了不良包名及其改善方法。
+  </p>
+  
+
+
+    
+      
+  <h4 id="TOC_2.">包名</h4>
+  
+  
+  <p>
+    好的包名应当简短清晰。它们应该全部小写，没有下划线 <code>under_scores</code> 或混合大小写
+
+
+    <code>mixedCaps</code> 。它们通常是简单的名词，例如：
+  </p>
+  
+
+  <ul>
+  
+    <li><code>time</code> （提供测量和显示时间的功能）</li>
+  
+    <li><code>list</code> （实现了双向链表）</li>
+  
+    <li><code>http</code> （提供 HTTP 客户端与服务端的实现）</li>
+  
+  </ul>
+
+  
+  <p>
+    另一种语言中典型的命名风格在 Go 程序中可能并不惯用。
+
+
+    下面两个例子在其它语言中可能是好的风格，但在 Go 中不合适：
+  </p>
+  
+
+  <ul>
+  
+    <li><code>computeServiceClient</code></li>
+  
+    <li><code>priority_queue</code></li>
+  
+  </ul>
+
+  
+  <p>
+    一个Go包可导出多个类型和函数。例如，一个 <code>compute</code> 包可以导出一个 <code>Client</code> 类型，
+
+
+    它包含使用该服务的方法，以及将一个计算任务划分给多个客户端（ <code>Client</code> ）的函数。
+  </p>
+  
+
+  
+  <p>
+    <b>慎用缩写。</b>
+
+
+    当程序员对包名缩写比较熟悉时，可直接采用。常用包一般都有简短的名字：
+  </p>
+  
+
+  <ul>
+  
+    <li><code>strconv</code> （字符串转换）</li>
+  
+    <li><code>syscall</code> （系统调用）</li>
+  
+    <li><code>fmt</code> （格式化 I/O）</li>
+  
+  </ul>
+
+  
+  <p>
+    反之，若包名缩写会产生歧义，那么请勿使用。
+  </p>
+  
+
+  
+  <p>
+    <b>别抢走用户的好名字。</b>
+
+
+    别把用户代码中常用的名字作为包名。例如，带缓冲的 I/O 叫做 <code>bufio</code> 而非 <code>buf</code> ，
+
+
+    因为 <code>buf</code> 用做缓冲区是个不错的变量名。
+  </p>
+  
+
+
+    
+      
+  <h4 id="TOC_3.">包内容的命名</h4>
+  
+  
+  <p>
+    包名与其内容的名字是有联系的，因为用户的代码总是一起使用它们。当设计一个包时，
+
+
+    请站在用户的角度考虑。
+  </p>
+  
+
+  
+  <p>
+    <b>别啰嗦。</b>
+
+
+    由于用户代码在引用包的内容时会将包名作为前缀，因此这些内容的名字无需重复包名。
+
+
+    <code>http</code> 包提供的 HTTP 服务名为 <code>http.Server</code> ，而非 <code>HTTPServer</code> 。用户代码通过
+
+
+    <code>http.Server</code> 引用该类型，因此没有歧义。
+  </p>
+  
+
+  
+  <p>
+    <b>简化函数名。</b>
+
+
+    当 <code>pkg</code> 包中某个函数的返回值类型为 <code>pkg.Pkg</code> （或 <code>*pkg.Pkg</code> ）时，
+
+
+    函数名就算省略类型名也不会引起混淆。
+  </p>
+  
+
+  
+  <div class="code"><pre>start := time.Now()                                  // start is a time.Time
+t, err := time.Parse(time.Kitchen, "6:06PM")         // t is a time.Time
+ctx = context.WithTimeout(ctx, 10*time.Millisecond)  // ctx is a context.Context
+ip, ok := userip.FromContext(ctx)                    // ip is a net.IP</pre></div>
+  
+
+  
+  <p>
+    在 <code>pkg</code> 包中名为 <code>New</code> 的函数会返回一个 <code>pkg.Pkg</code> 类型的值。
+
+
+    这是用户代码使用该类型的标准入口点：
+  </p>
+  
+
+  
+  <div class="code"><pre>q := list.New()  // q is a *list.List</pre></div>
+  
+
+  
+  <p>
+    当函数返回的值类型为 <code>pkg.T</code> 且 <code>T</code> 不为 <code>Pkg</code> 时，函数名应包含 <code>T</code>
+
+
+    以便让用户代码更易理解。常见的情况是一个包带有多个类似 <code>New</code> 的函数：
+  </p>
+  
+
+  
+  <div class="code"><pre>d, err := time.ParseDuration("10s")  // d is a time.Duration
+elapsed := time.Since(start)         // elapsed is a time.Duration
+ticker := time.NewTicker(d)          // ticker is a *time.Ticker
+timer := time.NewTimer(d)            // timer is a *time.Timer</pre></div>
+  
+
+  
+  <p>
+    不同包中的类型名可以相同，因为客户端可通过包名区分它们。
+
+
+    例如，标准库中含有多个名为 <code>Reader</code> 的类型，包括 <code>jpeg.Reader</code> 、 <code>bufio.Reader</code>
+
+
+    和 <code>csv.Reader</code> 。每个包名搭配 <code>Reader</code> 都是个不错的类型名。
+  </p>
+  
+
+  
+  <p>
+    若你为某个包的内容想不出有意义的前缀包名，那这个包的抽象边界大概就错了。
+
+
+    请站在用户的角度写你的包的代码，如果你觉得不太对劲那么请重新组织你的包。
+
+
+    这样得到的包将不仅容易使用，也容易维护。
+  </p>
+  
+
+
+    
+      
+  <h4 id="TOC_4.">导入路径</h4>
+  
+  
+  <p>
+    一个 Go 包同时有名称和路径。包名由其源码文件中的包语句指定，
+
+
+    用户代码将其用作包的已导出名的前缀。用户代码通过包路径来导入包。
+
+
+    按照约定，包路径的最后一个元素即为包名：
+  </p>
+  
+
+  
+  <div class="code"><pre>import (
+    "fmt"                       // package fmt
+    "os/exec"                   // package exec
+    "golang.org/x/net/context"  // package context
+)</pre></div>
+  
+
+  
+  <p>
+    构建工具将包路径映射到目录。go 工具通过 <a href="https://go-zh.org/doc/code.html#GOPATH" target="_blank">GOPATH</a>
+
+
+    环境变量在 <code>$GOPATH/src/github.com/user/hello</code> 目录中查找路径 <code>"github.com/user/hello"</code> 内的源文件。
+
+
+    （这种情况你应该熟悉，但弄清这些术语和包结构也很重要。）
+  </p>
+  
+
+  
+  <p>
+    <b>目录。</b>
+
+
+    标准库使用像 <code>crypto</code> 、 <code>container</code> 、 <code>encoding</code> 和 <code>image</code>
+
+
+    之类的目录来为相关的协议和算法包分组。其中每个目录内的包之间并没有实际的联系，
+
+
+    目录只是为了便于分类文件。只要不会导致循环引用，任何包都能导入其它的包。
+  </p>
+  
+
+  
+  <p>
+    就像不同包中的类型可以同名而不会引起混淆，不同目录中的包也可以同名。
+
+
+    例如，<a href="https://go-zh.org/pkg/runtime/pprof" target="_blank">runtime/pprof</a> 提供了
+
+
+    <a href="https://code.google.com/p/gperftools" target="_blank">pprof</a> 剖析工具所需格式的剖析数据，
+
+
+    而 <a href="https://go-zh.org/pkg/net/http/pprof" target="_blank">net/http/pprof</a>
+
+
+    则提供了按这种格式展示剖析数据的HTTP端点。用户代码通过包路径导入该包，因此不会混淆。
+
+
+    若源文件需要导入两个 <code>pprof</code> 包，那么可以局部地将其中之一或二者都
+
+
+    <a href="https://go-zh.org/ref/spec#Import_declarations" target="_blank">重命名</a>。在重命名已导入包时，
+
+
+    局部名也应遵循包名的命名准则（小写，不使用下划线 <code>under_scores</code> 或混合大小写 <code>mixedCaps</code> ）。
+  </p>
+  
+
+
+    
+      
+  <h4 id="TOC_5.">不良包名</h4>
+  
+  
+  <p>
+    不良包名会让代码难以使用与维护。下面是一些识别及修复不良包名的准则。
+  </p>
+  
+
+  
+  <p>
+    <b>避免无意义的包名。</b>
+
+
+    名为 <code>util</code> 、 <code>common</code> 或 <code>misc</code> 的包不仅无法向用户传达其中的内容，还会让它们更难以使用，
+
+
+    维护者也不易保持它们的专用性。如此一来，依赖关系会日渐复杂，徒增编译时间，这在大型程序中尤甚。
+
+
+    由于这类包名过于通用，因此更易与客户代码中导入的其它包名相冲突，用户则必须重新取名来加以区分。
+  </p>
+  
+
+  
+  <p>
+    <b>拆分过于通用的包。</b>
+
+
+    修复这样的包需要包含通用名元素的类型和函数，并将它们放到自己的包中。例如，若你有以下代码：
+  </p>
+  
+
+  
+  <div class="code"><pre>package util
+func NewStringSet(...string) map[string]bool {...}
+func SortStringSet(map[string]bool) []string {...}</pre></div>
+  
+
+  
+  <p>
+    那么用户代码看起来会是这样：
+  </p>
+  
+
+  
+  <div class="code"><pre>set := util.NewStringSet("c", "a", "b")
+fmt.Println(util.SortStringSet(set))</pre></div>
+  
+
+  
+  <p>
+    将这些函数从 <code>util</code> 移至新的包中，选一个与其内容相称的包名：
+  </p>
+  
+
+  
+  <div class="code"><pre>package stringset
+func New(...string) map[string]bool {...}
+func Sort(map[string]bool) []string {...}</pre></div>
+  
+
+  
+  <p>
+    那么用户代码会变成这样：
+  </p>
+  
+
+  
+  <div class="code"><pre>set := stringset.New("c", "a", "b")
+fmt.Println(stringset.Sort(set))</pre></div>
+  
+
+  
+  <p>
+    一旦你做出这些改变，便更容易看出如何改进新包了：
+  </p>
+  
+
+  
+  <div class="code"><pre>package stringset
+type Set map[string]bool
+func New(...string) Set {...}
+func (s Set) Sort() []string {...}</pre></div>
+  
+
+  
+  <p>
+    这样以来用户代码将更加简洁：
+  </p>
+  
+
+  
+  <div class="code"><pre>set := stringset.New("c", "a", "b")
+fmt.Println(set.Sort())</pre></div>
+  
+
+  
+  <p>
+    名字是设计包的关键。请从你的项目中努力消除无意义的包名。
+  </p>
+  
+
+  
+  <p>
+    <b>别把所有API都塞进一个包里。</b>
+
+
+    有些好心的程序员会将他们的程序暴露出的所有接口都放到一个包里，取名为 <code>api</code> 、 <code>types</code>  、或
+
+
+    <code>interfaces</code> ，他们觉着这样会更易于找到代码库的入口点。这是不对的。这种包遭遇到的问题和名为
+
+
+    <code>util</code> 或 <code>common</code> 的包相同，即无节制地增长，不为用户提供指导，积累依赖，以及和其它导入冲突。
+
+
+    请拆分它们，或许可以用目录将公共包从实现中分离出来。
+  </p>
+  
+
+  
+  <p>
+    <b>避免不必要的包名冲突。</b>
+
+
+    当不同目录中的包名相同时，经常一起使用的包应该有不同的名字。这能避免混淆，
+
+
+    减少在用户代码中局部重命名的必要。同理，也应当避免将 <code>io</code> 或 <code>http</code>
+
+
+    之类广泛使用的标准包的名字用作包名。
+  </p>
+  
+
+
+    
+      
+  <h4 id="TOC_6.">结论</h4>
+  
+  
+  <p>
+    Go 程序的包名是良好命名的核心，请花点时间选好包名并组织好你的代码，
+
+
+    这能帮助用户理解并使用你的包，也有助于维护者优雅地发展它们。
+  </p>
+  
+
+
+    
+      
+  <h4 id="TOC_7.">扩展阅读</h4>
+  
+  <ul>
+  
+    <li><a href="https://go-zh.org/doc/effective_go.html" target="_blank">实效 Go 编程</a></li>
+  
+    <li><a href="https://go-zh.org/doc/code.html" target="_blank">如何编写 Go 代码</a></li>
+  
+    <li><a href="http://blog.go-zh.org/organizing-go-code" target="_blank">组织 Go 代码（2012年的博客）</a></li>
+  
+    <li><a href="http://talks.go-zh.org/2014/organizeio.slide" target="_blank">组织 Go 代码（2014年 Google I/O 演讲）</a></li>
+  
+  </ul>
+
+
+    
+  
+
+
+		
+			<p class="author">Sameer Ajmani 编写</p>
+		
+	</div>
+
+	
+
+</div>
+
+<div id="footer">
+	<p>
+	除<a href="https://developers.google.com/site-policies#restrictions">特别注明</a>外，
+	本页内容均采用知识共享-署名（CC-BY）3.0 协议授权，代码采用<a href="https://go-zh.org/LICENSE">BSD协议</a>授权。<br>
+	<a href="https://go-zh.org/doc/tos.html">服务条款</a> | 
+	<a href="http://www.google.com/intl/en/policies/privacy/">隐私政策</a>
+	</p>
+</div>
+
+</div>
+</div>
+
+
+<script src="./命名的学问 - Go 语言博客_files/jquery.js"></script>
+<script src="./命名的学问 - Go 语言博客_files/playground.js"></script>
+<script src="./命名的学问 - Go 语言博客_files/play.js"></script>
+<script src="./命名的学问 - Go 语言博客_files/godocs.js"></script>
+<script>
+$(function() {
+	
+	$('.playground > pre.numbers, .code > pre.numbers').each(function() {
+		var $spans = $(this).find('> span');
+
+		
+		var max = 0;
+		$spans.each(function() {
+			var n = $(this).attr('num')*1;
+			if (n > max) max = n;
+		});
+		var width = 2;
+		while (max > 10) {
+			max = max / 10;
+			width++;
+		}
+
+		
+		$spans.each(function() {
+			var n = $(this).attr('num')+' ';
+			while (n.length < width) n = ' '+n;
+			$('<span class="number">').text(n).insertBefore(this);
+		});
+	});
+
+	initPlayground(new HTTPTransport());
+});
+</script>
+
+</body></html>

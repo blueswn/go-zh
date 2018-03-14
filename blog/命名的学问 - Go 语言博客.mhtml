@@ -1,0 +1,1202 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://blog.go-zh.org/package-names
+Subject: =?utf-8?Q?=E5=91=BD=E5=90=8D=E7=9A=84=E5=AD=A6=E9=97=AE - Go =E8=AF=AD=E8=A8=80=E5=8D=
+=9A=E5=AE=A2?=
+Date: Fri, 18 Jan 2018 09:07:17 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--W17NWD5499nd8bguMH6sExiD2QLdHkIgLHNvwEkkRR----"
+
+------MultipartBoundary--W17NWD5499nd8bguMH6sExiD2QLdHkIgLHNvwEkkRR----
+Content-Type: text/html
+Content-ID: <frame-6-51aae88b-9769-4ef1-af3d-6b78ea5d0f2e@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://blog.go-zh.org/package-names
+
+<!DOCTYPE html><html><head><meta http-equiv=3D"Content-Type" content=3D"tex=
+t/html; charset=3DUTF-8">
+=09
+	<title>=E5=91=BD=E5=90=8D=E7=9A=84=E5=AD=A6=E9=97=AE - Go =E8=AF=AD=E8=A8=
+=80=E5=8D=9A=E5=AE=A2</title>
+	<link type=3D"text/css" rel=3D"stylesheet" href=3D"https://blog.go-zh.org/=
+lib/godoc/style.css">
+	<link rel=3D"alternate" type=3D"application/atom+xml" title=3D"blog.go-zh.=
+org - Atom Feed" href=3D"https://blog.go-zh.org/feed.atom">
+=09
+	<style>
+		#sidebar {
+			float: right;
+			padding-left: 20px;
+			width: 250px;
+			background: white;
+		}
+		#sidebar p, #sidebar ul {
+			margin: 10px 5px;
+		}
+		#sidebar h4 {
+			margin: 10px 5px;
+		}
+		#sidebar ul {
+			padding: 0;
+		}
+		#sidebar li {
+			list-style-type: none;
+		}
+		#content .author {
+			font-style: italic;
+		}
+		#content .article {
+			margin-bottom: 50px;
+		}
+		#content .date {
+			color: #999;
+		}
+		#content .tags {
+			color: #999;
+			font-size: smaller;
+		}
+		#content .iframe, #content .image {
+			margin: 20px;
+		}
+		#content .title {
+			margin: 20px 0;
+		}
+	</style>
+</head>
+<body>
+
+<div id=3D"topbar"><div class=3D"container">
+
+<form method=3D"GET" action=3D"https://go-zh.org/search">
+<div id=3D"menu">
+<a href=3D"https://go-zh.org/doc/">=E6=96=87=E6=A1=A3</a>
+<a href=3D"https://go-zh.org/pkg/">=E5=8C=85</a>
+<a href=3D"https://go-zh.org/project/">=E9=A1=B9=E7=9B=AE</a>
+<a href=3D"https://go-zh.org/help/">=E5=B8=AE=E5=8A=A9</a>
+<a href=3D"https://blog.go-zh.org/">=E5=8D=9A=E5=AE=A2</a>
+<input type=3D"text" id=3D"search" name=3D"q" class=3D"inactive" value=3D"=
+=E6=90=9C=E7=B4=A2" placeholder=3D"=E6=90=9C=E7=B4=A2">
+</div>
+<div id=3D"heading"><a href=3D"https://go-zh.org/">Go =E7=BC=96=E7=A8=8B=E8=
+=AF=AD=E8=A8=80</a></div>
+</form>
+
+</div></div>
+
+<div id=3D"page" tabindex=3D"-1" style=3D"outline: 0px;">
+<div class=3D"container">
+
+<div id=3D"sidebar">
+=09
+	=09
+			<h4>=E4=B8=8B=E4=B8=80=E7=AF=87</h4>
+			<p><a href=3D"https://blog.go-zh.org/examples">Testable Examples in Go</=
+a></p>
+	=09
+	=09
+	=09
+			<h4>=E4=B8=8A=E4=B8=80=E7=AF=87</h4>
+			<p><a href=3D"https://blog.go-zh.org/errors-are-values">Errors are value=
+s</a></p>
+	=09
+=09
+=09
+	<h4>=E9=93=BE=E6=8E=A5</h4>
+	<ul>
+	<li><a href=3D"https://golang.org/">golang.org</a></li>
+	<li><a href=3D"https://go-zh.org/">golang.org =E4=B8=AD=E6=96=87=E7=89=88<=
+/a></li>
+	<li><a href=3D"https://go-zh.org/doc/install.html">=E5=AE=89=E8=A3=85 Go</=
+a></li>
+	<li><a href=3D"https://tour.go-zh.org/">Go =E6=8C=87=E5=8D=97</a></li>
+	<li><a href=3D"https://go-zh.org/doc/">Go =E6=96=87=E6=A1=A3</a></li>
+	<li><a href=3D"https://groups.google.com/group/golang-nuts">Go =E9=82=AE=
+=E4=BB=B6=E5=88=97=E8=A1=A8=EF=BC=88=E8=8B=B1=E6=96=87=EF=BC=89</a></li>
+	<li><a href=3D"https://groups.google.com/group/golang-china">Go =E9=82=AE=
+=E4=BB=B6=E5=88=97=E8=A1=A8=EF=BC=88=E4=B8=AD=E6=96=87=EF=BC=89</a></li>
+	<li><a href=3D"https://plus.google.com/101406623878176903605">Go on Google=
++</a></li>
+	<li><a href=3D"https://plus.google.com/112164155169467723645/posts">Go+ =
+=E7=A4=BE=E5=8C=BA</a></li>
+	<li><a href=3D"https://twitter.com/golang">Go on Twitter</a></li>
+	</ul>
+=09
+	<p><a href=3D"https://blog.go-zh.org/index">=E5=8D=9A=E5=AE=A2=E7=B4=A2=E5=
+=BC=95</a></p>
+</div>
+
+<div id=3D"content">
+	<h1><a href=3D"https://blog.go-zh.org/">Go =E5=8D=9A=E5=AE=A2</a></h1>
+=09
+=09
+	<div class=3D"article">
+		<h3 class=3D"title"><a href=3D"https://blog.go-zh.org/package-names">=E5=
+=91=BD=E5=90=8D=E7=9A=84=E5=AD=A6=E9=97=AE</a></h3>
+		<p class=3D"date">2015/02/04</p>
+	=09
+
+ =20
+ =20
+   =20
+     =20
+  <h4 id=3D"TOC_1.">=E5=BC=95=E8=A8=80</h4>
+ =20
+ =20
+  <p>
+    Go =E4=BB=A3=E7=A0=81=E9=80=9A=E8=BF=87=E5=8C=85=E6=9D=A5=E7=BB=84=E7=
+=BB=87=E3=80=82=E5=9C=A8=E5=8C=85=E5=86=85=E9=83=A8=EF=BC=8C=E4=BB=A3=E7=A0=
+=81=E5=8F=AF=E4=BB=A5=E5=BC=95=E7=94=A8=E5=8C=85=E4=B8=AD=E5=AE=9A=E4=B9=89=
+=E7=9A=84=E4=BB=BB=E4=BD=95=E6=A0=87=E8=AF=86=E7=AC=A6=EF=BC=88=E5=90=8D=E5=
+=AD=97=EF=BC=89=EF=BC=8C
+
+
+    =E8=80=8C=E8=AF=A5=E5=8C=85=E7=9A=84=E7=94=A8=E6=88=B7=E5=88=99=E5=8F=
+=AA=E8=83=BD=E5=BC=95=E7=94=A8=E5=85=B6=E4=B8=AD=E5=B7=B2=E5=AF=BC=E5=87=BA=
+=E7=9A=84=E7=B1=BB=E5=9E=8B=E3=80=81=E5=87=BD=E6=95=B0=E3=80=81=E5=B8=B8=E9=
+=87=8F=E5=92=8C=E5=8F=98=E9=87=8F=E3=80=82
+
+
+    =E8=BF=99=E7=A7=8D=E5=BC=95=E7=94=A8=E6=80=BB=E6=98=AF=E5=B0=86=E5=8C=
+=85=E5=90=8D=E4=BD=9C=E4=B8=BA=E5=89=8D=E7=BC=80=EF=BC=9A=E4=BE=8B=E5=A6=82=
+ <code>foo.Bar</code> =E5=B0=B1=E5=BC=95=E7=94=A8=E4=BA=86=E5=B7=B2=E5=AF=
+=BC=E5=85=A5=E5=8C=85 <code>foo</code> =E4=B8=AD=E7=9A=84=E5=B7=B2=E5=AF=BC=
+=E5=87=BA=E5=90=8D <code>Bar</code> =E3=80=82
+  </p>
+ =20
+
+ =20
+  <p>
+    =E5=A5=BD=E7=9A=84=E5=8C=85=E5=90=8D=E8=83=BD=E8=AE=A9=E4=BB=A3=E7=A0=
+=81=E7=BB=84=E7=BB=87=E5=BE=97=E6=9B=B4=E5=A5=BD=E3=80=82=E5=8C=85=E5=90=8D=
+=E6=8F=90=E4=BE=9B=E4=BA=86=E5=85=B6=E5=86=85=E5=AE=B9=E7=9A=84=E4=B8=8A=E4=
+=B8=8B=E6=96=87=EF=BC=8C=E8=AE=A9=E7=94=A8=E6=88=B7=E6=9B=B4=E5=AE=B9=E6=98=
+=93=E7=90=86=E8=A7=A3=E8=AF=A5=E5=8C=85=E7=9A=84=E7=94=A8=E9=80=94=E5=92=8C=
+=E7=94=A8=E6=B3=95=E3=80=82
+
+
+    =E5=8C=85=E5=90=8D=E4=B9=9F=E6=9C=89=E5=8A=A9=E4=BA=8E=E7=BB=B4=E6=8A=
+=A4=E8=80=85=E5=9C=A8=E8=AF=A5=E5=8C=85=E7=9A=84=E6=BC=94=E5=8C=96=E8=BF=87=
+=E7=A8=8B=E4=B8=AD=E5=86=B3=E5=AE=9A=E5=93=AA=E4=BA=9B=E4=B8=9C=E8=A5=BF=E5=
+=B1=9E=E4=BA=8E=E5=AE=83=EF=BC=8C=E5=93=AA=E4=BA=9B=E4=B8=8D=E5=B1=9E=E4=BA=
+=8E=E5=AE=83=E3=80=82
+
+
+    =E6=81=B0=E5=BD=93=E7=9A=84=E5=8C=85=E5=90=8D=E6=9B=B4=E6=98=93=E5=B8=
+=AE=E4=BD=A0=E6=89=BE=E6=89=80=E9=9C=80=E7=9A=84=E4=BB=A3=E7=A0=81=E3=80=82
+  </p>
+ =20
+
+ =20
+  <p>
+    =E5=AE=9E=E6=95=88 Go =E7=BC=96=E7=A8=8B=E4=B8=AD=E6=8F=90=E4=BE=9B=E4=
+=BA=86=E4=B8=80=E4=BB=BD=E5=85=B3=E4=BA=8E=E5=8C=85=E3=80=81=E7=B1=BB=E5=9E=
+=8B=E3=80=81=E5=87=BD=E6=95=B0=E5=92=8C=E5=8F=98=E9=87=8F=E7=9A=84
+
+
+    <a href=3D"https://go-zh.org/doc/effective_go.html#%E5%91%BD%E5%90%8D" =
+target=3D"_blank">=E5=91=BD=E5=90=8D=E6=8C=87=E5=8D=97</a>=E3=80=82
+
+
+    =E6=9C=AC=E6=96=87=E6=8B=93=E5=B1=95=E4=BA=86=E8=AF=A5=E6=8C=87=E5=8D=
+=97=EF=BC=8C=E8=80=83=E5=AF=9F=E4=BA=86=E6=A0=87=E5=87=86=E5=BA=93=E4=B8=AD=
+=E7=9A=84=E5=91=BD=E5=90=8D=EF=BC=8C=E4=B9=9F=E8=AE=A8=E8=AE=BA=E4=BA=86=E4=
+=B8=8D=E8=89=AF=E5=8C=85=E5=90=8D=E5=8F=8A=E5=85=B6=E6=94=B9=E5=96=84=E6=96=
+=B9=E6=B3=95=E3=80=82
+  </p>
+ =20
+
+
+   =20
+     =20
+  <h4 id=3D"TOC_2.">=E5=8C=85=E5=90=8D</h4>
+ =20
+ =20
+  <p>
+    =E5=A5=BD=E7=9A=84=E5=8C=85=E5=90=8D=E5=BA=94=E5=BD=93=E7=AE=80=E7=9F=
+=AD=E6=B8=85=E6=99=B0=E3=80=82=E5=AE=83=E4=BB=AC=E5=BA=94=E8=AF=A5=E5=85=A8=
+=E9=83=A8=E5=B0=8F=E5=86=99=EF=BC=8C=E6=B2=A1=E6=9C=89=E4=B8=8B=E5=88=92=E7=
+=BA=BF <code>under_scores</code> =E6=88=96=E6=B7=B7=E5=90=88=E5=A4=A7=E5=B0=
+=8F=E5=86=99
+
+
+    <code>mixedCaps</code> =E3=80=82=E5=AE=83=E4=BB=AC=E9=80=9A=E5=B8=B8=E6=
+=98=AF=E7=AE=80=E5=8D=95=E7=9A=84=E5=90=8D=E8=AF=8D=EF=BC=8C=E4=BE=8B=E5=A6=
+=82=EF=BC=9A
+  </p>
+ =20
+
+  <ul>
+ =20
+    <li><code>time</code> =EF=BC=88=E6=8F=90=E4=BE=9B=E6=B5=8B=E9=87=8F=E5=
+=92=8C=E6=98=BE=E7=A4=BA=E6=97=B6=E9=97=B4=E7=9A=84=E5=8A=9F=E8=83=BD=EF=BC=
+=89</li>
+ =20
+    <li><code>list</code> =EF=BC=88=E5=AE=9E=E7=8E=B0=E4=BA=86=E5=8F=8C=E5=
+=90=91=E9=93=BE=E8=A1=A8=EF=BC=89</li>
+ =20
+    <li><code>http</code> =EF=BC=88=E6=8F=90=E4=BE=9B HTTP =E5=AE=A2=E6=88=
+=B7=E7=AB=AF=E4=B8=8E=E6=9C=8D=E5=8A=A1=E7=AB=AF=E7=9A=84=E5=AE=9E=E7=8E=B0=
+=EF=BC=89</li>
+ =20
+  </ul>
+
+ =20
+  <p>
+    =E5=8F=A6=E4=B8=80=E7=A7=8D=E8=AF=AD=E8=A8=80=E4=B8=AD=E5=85=B8=E5=9E=
+=8B=E7=9A=84=E5=91=BD=E5=90=8D=E9=A3=8E=E6=A0=BC=E5=9C=A8 Go =E7=A8=8B=E5=
+=BA=8F=E4=B8=AD=E5=8F=AF=E8=83=BD=E5=B9=B6=E4=B8=8D=E6=83=AF=E7=94=A8=E3=80=
+=82
+
+
+    =E4=B8=8B=E9=9D=A2=E4=B8=A4=E4=B8=AA=E4=BE=8B=E5=AD=90=E5=9C=A8=E5=85=
+=B6=E5=AE=83=E8=AF=AD=E8=A8=80=E4=B8=AD=E5=8F=AF=E8=83=BD=E6=98=AF=E5=A5=BD=
+=E7=9A=84=E9=A3=8E=E6=A0=BC=EF=BC=8C=E4=BD=86=E5=9C=A8 Go =E4=B8=AD=E4=B8=
+=8D=E5=90=88=E9=80=82=EF=BC=9A
+  </p>
+ =20
+
+  <ul>
+ =20
+    <li><code>computeServiceClient</code></li>
+ =20
+    <li><code>priority_queue</code></li>
+ =20
+  </ul>
+
+ =20
+  <p>
+    =E4=B8=80=E4=B8=AAGo=E5=8C=85=E5=8F=AF=E5=AF=BC=E5=87=BA=E5=A4=9A=E4=B8=
+=AA=E7=B1=BB=E5=9E=8B=E5=92=8C=E5=87=BD=E6=95=B0=E3=80=82=E4=BE=8B=E5=A6=82=
+=EF=BC=8C=E4=B8=80=E4=B8=AA <code>compute</code> =E5=8C=85=E5=8F=AF=E4=BB=
+=A5=E5=AF=BC=E5=87=BA=E4=B8=80=E4=B8=AA <code>Client</code> =E7=B1=BB=E5=9E=
+=8B=EF=BC=8C
+
+
+    =E5=AE=83=E5=8C=85=E5=90=AB=E4=BD=BF=E7=94=A8=E8=AF=A5=E6=9C=8D=E5=8A=
+=A1=E7=9A=84=E6=96=B9=E6=B3=95=EF=BC=8C=E4=BB=A5=E5=8F=8A=E5=B0=86=E4=B8=80=
+=E4=B8=AA=E8=AE=A1=E7=AE=97=E4=BB=BB=E5=8A=A1=E5=88=92=E5=88=86=E7=BB=99=E5=
+=A4=9A=E4=B8=AA=E5=AE=A2=E6=88=B7=E7=AB=AF=EF=BC=88 <code>Client</code> =EF=
+=BC=89=E7=9A=84=E5=87=BD=E6=95=B0=E3=80=82
+  </p>
+ =20
+
+ =20
+  <p>
+    <b>=E6=85=8E=E7=94=A8=E7=BC=A9=E5=86=99=E3=80=82</b>
+
+
+    =E5=BD=93=E7=A8=8B=E5=BA=8F=E5=91=98=E5=AF=B9=E5=8C=85=E5=90=8D=E7=BC=
+=A9=E5=86=99=E6=AF=94=E8=BE=83=E7=86=9F=E6=82=89=E6=97=B6=EF=BC=8C=E5=8F=AF=
+=E7=9B=B4=E6=8E=A5=E9=87=87=E7=94=A8=E3=80=82=E5=B8=B8=E7=94=A8=E5=8C=85=E4=
+=B8=80=E8=88=AC=E9=83=BD=E6=9C=89=E7=AE=80=E7=9F=AD=E7=9A=84=E5=90=8D=E5=AD=
+=97=EF=BC=9A
+  </p>
+ =20
+
+  <ul>
+ =20
+    <li><code>strconv</code> =EF=BC=88=E5=AD=97=E7=AC=A6=E4=B8=B2=E8=BD=AC=
+=E6=8D=A2=EF=BC=89</li>
+ =20
+    <li><code>syscall</code> =EF=BC=88=E7=B3=BB=E7=BB=9F=E8=B0=83=E7=94=A8=
+=EF=BC=89</li>
+ =20
+    <li><code>fmt</code> =EF=BC=88=E6=A0=BC=E5=BC=8F=E5=8C=96 I/O=EF=BC=89<=
+/li>
+ =20
+  </ul>
+
+ =20
+  <p>
+    =E5=8F=8D=E4=B9=8B=EF=BC=8C=E8=8B=A5=E5=8C=85=E5=90=8D=E7=BC=A9=E5=86=
+=99=E4=BC=9A=E4=BA=A7=E7=94=9F=E6=AD=A7=E4=B9=89=EF=BC=8C=E9=82=A3=E4=B9=88=
+=E8=AF=B7=E5=8B=BF=E4=BD=BF=E7=94=A8=E3=80=82
+  </p>
+ =20
+
+ =20
+  <p>
+    <b>=E5=88=AB=E6=8A=A2=E8=B5=B0=E7=94=A8=E6=88=B7=E7=9A=84=E5=A5=BD=E5=
+=90=8D=E5=AD=97=E3=80=82</b>
+
+
+    =E5=88=AB=E6=8A=8A=E7=94=A8=E6=88=B7=E4=BB=A3=E7=A0=81=E4=B8=AD=E5=B8=
+=B8=E7=94=A8=E7=9A=84=E5=90=8D=E5=AD=97=E4=BD=9C=E4=B8=BA=E5=8C=85=E5=90=8D=
+=E3=80=82=E4=BE=8B=E5=A6=82=EF=BC=8C=E5=B8=A6=E7=BC=93=E5=86=B2=E7=9A=84 I/=
+O =E5=8F=AB=E5=81=9A <code>bufio</code> =E8=80=8C=E9=9D=9E <code>buf</code>=
+ =EF=BC=8C
+
+
+    =E5=9B=A0=E4=B8=BA <code>buf</code> =E7=94=A8=E5=81=9A=E7=BC=93=E5=86=
+=B2=E5=8C=BA=E6=98=AF=E4=B8=AA=E4=B8=8D=E9=94=99=E7=9A=84=E5=8F=98=E9=87=8F=
+=E5=90=8D=E3=80=82
+  </p>
+ =20
+
+
+   =20
+     =20
+  <h4 id=3D"TOC_3.">=E5=8C=85=E5=86=85=E5=AE=B9=E7=9A=84=E5=91=BD=E5=90=8D<=
+/h4>
+ =20
+ =20
+  <p>
+    =E5=8C=85=E5=90=8D=E4=B8=8E=E5=85=B6=E5=86=85=E5=AE=B9=E7=9A=84=E5=90=
+=8D=E5=AD=97=E6=98=AF=E6=9C=89=E8=81=94=E7=B3=BB=E7=9A=84=EF=BC=8C=E5=9B=A0=
+=E4=B8=BA=E7=94=A8=E6=88=B7=E7=9A=84=E4=BB=A3=E7=A0=81=E6=80=BB=E6=98=AF=E4=
+=B8=80=E8=B5=B7=E4=BD=BF=E7=94=A8=E5=AE=83=E4=BB=AC=E3=80=82=E5=BD=93=E8=AE=
+=BE=E8=AE=A1=E4=B8=80=E4=B8=AA=E5=8C=85=E6=97=B6=EF=BC=8C
+
+
+    =E8=AF=B7=E7=AB=99=E5=9C=A8=E7=94=A8=E6=88=B7=E7=9A=84=E8=A7=92=E5=BA=
+=A6=E8=80=83=E8=99=91=E3=80=82
+  </p>
+ =20
+
+ =20
+  <p>
+    <b>=E5=88=AB=E5=95=B0=E5=97=A6=E3=80=82</b>
+
+
+    =E7=94=B1=E4=BA=8E=E7=94=A8=E6=88=B7=E4=BB=A3=E7=A0=81=E5=9C=A8=E5=BC=
+=95=E7=94=A8=E5=8C=85=E7=9A=84=E5=86=85=E5=AE=B9=E6=97=B6=E4=BC=9A=E5=B0=86=
+=E5=8C=85=E5=90=8D=E4=BD=9C=E4=B8=BA=E5=89=8D=E7=BC=80=EF=BC=8C=E5=9B=A0=E6=
+=AD=A4=E8=BF=99=E4=BA=9B=E5=86=85=E5=AE=B9=E7=9A=84=E5=90=8D=E5=AD=97=E6=97=
+=A0=E9=9C=80=E9=87=8D=E5=A4=8D=E5=8C=85=E5=90=8D=E3=80=82
+
+
+    <code>http</code> =E5=8C=85=E6=8F=90=E4=BE=9B=E7=9A=84 HTTP =E6=9C=8D=
+=E5=8A=A1=E5=90=8D=E4=B8=BA <code>http.Server</code> =EF=BC=8C=E8=80=8C=E9=
+=9D=9E <code>HTTPServer</code> =E3=80=82=E7=94=A8=E6=88=B7=E4=BB=A3=E7=A0=
+=81=E9=80=9A=E8=BF=87
+
+
+    <code>http.Server</code> =E5=BC=95=E7=94=A8=E8=AF=A5=E7=B1=BB=E5=9E=8B=
+=EF=BC=8C=E5=9B=A0=E6=AD=A4=E6=B2=A1=E6=9C=89=E6=AD=A7=E4=B9=89=E3=80=82
+  </p>
+ =20
+
+ =20
+  <p>
+    <b>=E7=AE=80=E5=8C=96=E5=87=BD=E6=95=B0=E5=90=8D=E3=80=82</b>
+
+
+    =E5=BD=93 <code>pkg</code> =E5=8C=85=E4=B8=AD=E6=9F=90=E4=B8=AA=E5=87=
+=BD=E6=95=B0=E7=9A=84=E8=BF=94=E5=9B=9E=E5=80=BC=E7=B1=BB=E5=9E=8B=E4=B8=BA=
+ <code>pkg.Pkg</code> =EF=BC=88=E6=88=96 <code>*pkg.Pkg</code> =EF=BC=89=E6=
+=97=B6=EF=BC=8C
+
+
+    =E5=87=BD=E6=95=B0=E5=90=8D=E5=B0=B1=E7=AE=97=E7=9C=81=E7=95=A5=E7=B1=
+=BB=E5=9E=8B=E5=90=8D=E4=B9=9F=E4=B8=8D=E4=BC=9A=E5=BC=95=E8=B5=B7=E6=B7=B7=
+=E6=B7=86=E3=80=82
+  </p>
+ =20
+
+ =20
+  <div class=3D"code"><pre>start :=3D time.Now()                           =
+       // start is a time.Time
+t, err :=3D time.Parse(time.Kitchen, "6:06PM")         // t is a time.Time
+ctx =3D context.WithTimeout(ctx, 10*time.Millisecond)  // ctx is a context.=
+Context
+ip, ok :=3D userip.FromContext(ctx)                    // ip is a net.IP</p=
+re></div>
+ =20
+
+ =20
+  <p>
+    =E5=9C=A8 <code>pkg</code> =E5=8C=85=E4=B8=AD=E5=90=8D=E4=B8=BA <code>N=
+ew</code> =E7=9A=84=E5=87=BD=E6=95=B0=E4=BC=9A=E8=BF=94=E5=9B=9E=E4=B8=80=
+=E4=B8=AA <code>pkg.Pkg</code> =E7=B1=BB=E5=9E=8B=E7=9A=84=E5=80=BC=E3=80=
+=82
+
+
+    =E8=BF=99=E6=98=AF=E7=94=A8=E6=88=B7=E4=BB=A3=E7=A0=81=E4=BD=BF=E7=94=
+=A8=E8=AF=A5=E7=B1=BB=E5=9E=8B=E7=9A=84=E6=A0=87=E5=87=86=E5=85=A5=E5=8F=A3=
+=E7=82=B9=EF=BC=9A
+  </p>
+ =20
+
+ =20
+  <div class=3D"code"><pre>q :=3D list.New()  // q is a *list.List</pre></d=
+iv>
+ =20
+
+ =20
+  <p>
+    =E5=BD=93=E5=87=BD=E6=95=B0=E8=BF=94=E5=9B=9E=E7=9A=84=E5=80=BC=E7=B1=
+=BB=E5=9E=8B=E4=B8=BA <code>pkg.T</code> =E4=B8=94 <code>T</code> =E4=B8=8D=
+=E4=B8=BA <code>Pkg</code> =E6=97=B6=EF=BC=8C=E5=87=BD=E6=95=B0=E5=90=8D=E5=
+=BA=94=E5=8C=85=E5=90=AB <code>T</code>
+
+
+    =E4=BB=A5=E4=BE=BF=E8=AE=A9=E7=94=A8=E6=88=B7=E4=BB=A3=E7=A0=81=E6=9B=
+=B4=E6=98=93=E7=90=86=E8=A7=A3=E3=80=82=E5=B8=B8=E8=A7=81=E7=9A=84=E6=83=85=
+=E5=86=B5=E6=98=AF=E4=B8=80=E4=B8=AA=E5=8C=85=E5=B8=A6=E6=9C=89=E5=A4=9A=E4=
+=B8=AA=E7=B1=BB=E4=BC=BC <code>New</code> =E7=9A=84=E5=87=BD=E6=95=B0=EF=BC=
+=9A
+  </p>
+ =20
+
+ =20
+  <div class=3D"code"><pre>d, err :=3D time.ParseDuration("10s")  // d is a=
+ time.Duration
+elapsed :=3D time.Since(start)         // elapsed is a time.Duration
+ticker :=3D time.NewTicker(d)          // ticker is a *time.Ticker
+timer :=3D time.NewTimer(d)            // timer is a *time.Timer</pre></div=
+>
+ =20
+
+ =20
+  <p>
+    =E4=B8=8D=E5=90=8C=E5=8C=85=E4=B8=AD=E7=9A=84=E7=B1=BB=E5=9E=8B=E5=90=
+=8D=E5=8F=AF=E4=BB=A5=E7=9B=B8=E5=90=8C=EF=BC=8C=E5=9B=A0=E4=B8=BA=E5=AE=A2=
+=E6=88=B7=E7=AB=AF=E5=8F=AF=E9=80=9A=E8=BF=87=E5=8C=85=E5=90=8D=E5=8C=BA=E5=
+=88=86=E5=AE=83=E4=BB=AC=E3=80=82
+
+
+    =E4=BE=8B=E5=A6=82=EF=BC=8C=E6=A0=87=E5=87=86=E5=BA=93=E4=B8=AD=E5=90=
+=AB=E6=9C=89=E5=A4=9A=E4=B8=AA=E5=90=8D=E4=B8=BA <code>Reader</code> =E7=9A=
+=84=E7=B1=BB=E5=9E=8B=EF=BC=8C=E5=8C=85=E6=8B=AC <code>jpeg.Reader</code> =
+=E3=80=81 <code>bufio.Reader</code>
+
+
+    =E5=92=8C <code>csv.Reader</code> =E3=80=82=E6=AF=8F=E4=B8=AA=E5=8C=85=
+=E5=90=8D=E6=90=AD=E9=85=8D <code>Reader</code> =E9=83=BD=E6=98=AF=E4=B8=AA=
+=E4=B8=8D=E9=94=99=E7=9A=84=E7=B1=BB=E5=9E=8B=E5=90=8D=E3=80=82
+  </p>
+ =20
+
+ =20
+  <p>
+    =E8=8B=A5=E4=BD=A0=E4=B8=BA=E6=9F=90=E4=B8=AA=E5=8C=85=E7=9A=84=E5=86=
+=85=E5=AE=B9=E6=83=B3=E4=B8=8D=E5=87=BA=E6=9C=89=E6=84=8F=E4=B9=89=E7=9A=84=
+=E5=89=8D=E7=BC=80=E5=8C=85=E5=90=8D=EF=BC=8C=E9=82=A3=E8=BF=99=E4=B8=AA=E5=
+=8C=85=E7=9A=84=E6=8A=BD=E8=B1=A1=E8=BE=B9=E7=95=8C=E5=A4=A7=E6=A6=82=E5=B0=
+=B1=E9=94=99=E4=BA=86=E3=80=82
+
+
+    =E8=AF=B7=E7=AB=99=E5=9C=A8=E7=94=A8=E6=88=B7=E7=9A=84=E8=A7=92=E5=BA=
+=A6=E5=86=99=E4=BD=A0=E7=9A=84=E5=8C=85=E7=9A=84=E4=BB=A3=E7=A0=81=EF=BC=8C=
+=E5=A6=82=E6=9E=9C=E4=BD=A0=E8=A7=89=E5=BE=97=E4=B8=8D=E5=A4=AA=E5=AF=B9=E5=
+=8A=B2=E9=82=A3=E4=B9=88=E8=AF=B7=E9=87=8D=E6=96=B0=E7=BB=84=E7=BB=87=E4=BD=
+=A0=E7=9A=84=E5=8C=85=E3=80=82
+
+
+    =E8=BF=99=E6=A0=B7=E5=BE=97=E5=88=B0=E7=9A=84=E5=8C=85=E5=B0=86=E4=B8=
+=8D=E4=BB=85=E5=AE=B9=E6=98=93=E4=BD=BF=E7=94=A8=EF=BC=8C=E4=B9=9F=E5=AE=B9=
+=E6=98=93=E7=BB=B4=E6=8A=A4=E3=80=82
+  </p>
+ =20
+
+
+   =20
+     =20
+  <h4 id=3D"TOC_4.">=E5=AF=BC=E5=85=A5=E8=B7=AF=E5=BE=84</h4>
+ =20
+ =20
+  <p>
+    =E4=B8=80=E4=B8=AA Go =E5=8C=85=E5=90=8C=E6=97=B6=E6=9C=89=E5=90=8D=E7=
+=A7=B0=E5=92=8C=E8=B7=AF=E5=BE=84=E3=80=82=E5=8C=85=E5=90=8D=E7=94=B1=E5=85=
+=B6=E6=BA=90=E7=A0=81=E6=96=87=E4=BB=B6=E4=B8=AD=E7=9A=84=E5=8C=85=E8=AF=AD=
+=E5=8F=A5=E6=8C=87=E5=AE=9A=EF=BC=8C
+
+
+    =E7=94=A8=E6=88=B7=E4=BB=A3=E7=A0=81=E5=B0=86=E5=85=B6=E7=94=A8=E4=BD=
+=9C=E5=8C=85=E7=9A=84=E5=B7=B2=E5=AF=BC=E5=87=BA=E5=90=8D=E7=9A=84=E5=89=8D=
+=E7=BC=80=E3=80=82=E7=94=A8=E6=88=B7=E4=BB=A3=E7=A0=81=E9=80=9A=E8=BF=87=E5=
+=8C=85=E8=B7=AF=E5=BE=84=E6=9D=A5=E5=AF=BC=E5=85=A5=E5=8C=85=E3=80=82
+
+
+    =E6=8C=89=E7=85=A7=E7=BA=A6=E5=AE=9A=EF=BC=8C=E5=8C=85=E8=B7=AF=E5=BE=
+=84=E7=9A=84=E6=9C=80=E5=90=8E=E4=B8=80=E4=B8=AA=E5=85=83=E7=B4=A0=E5=8D=B3=
+=E4=B8=BA=E5=8C=85=E5=90=8D=EF=BC=9A
+  </p>
+ =20
+
+ =20
+  <div class=3D"code"><pre>import (
+    "fmt"                       // package fmt
+    "os/exec"                   // package exec
+    "golang.org/x/net/context"  // package context
+)</pre></div>
+ =20
+
+ =20
+  <p>
+    =E6=9E=84=E5=BB=BA=E5=B7=A5=E5=85=B7=E5=B0=86=E5=8C=85=E8=B7=AF=E5=BE=
+=84=E6=98=A0=E5=B0=84=E5=88=B0=E7=9B=AE=E5=BD=95=E3=80=82go =E5=B7=A5=E5=85=
+=B7=E9=80=9A=E8=BF=87 <a href=3D"https://go-zh.org/doc/code.html#GOPATH" ta=
+rget=3D"_blank">GOPATH</a>
+
+
+    =E7=8E=AF=E5=A2=83=E5=8F=98=E9=87=8F=E5=9C=A8 <code>$GOPATH/src/github.=
+com/user/hello</code> =E7=9B=AE=E5=BD=95=E4=B8=AD=E6=9F=A5=E6=89=BE=E8=B7=
+=AF=E5=BE=84 <code>"github.com/user/hello"</code> =E5=86=85=E7=9A=84=E6=BA=
+=90=E6=96=87=E4=BB=B6=E3=80=82
+
+
+    =EF=BC=88=E8=BF=99=E7=A7=8D=E6=83=85=E5=86=B5=E4=BD=A0=E5=BA=94=E8=AF=
+=A5=E7=86=9F=E6=82=89=EF=BC=8C=E4=BD=86=E5=BC=84=E6=B8=85=E8=BF=99=E4=BA=9B=
+=E6=9C=AF=E8=AF=AD=E5=92=8C=E5=8C=85=E7=BB=93=E6=9E=84=E4=B9=9F=E5=BE=88=E9=
+=87=8D=E8=A6=81=E3=80=82=EF=BC=89
+  </p>
+ =20
+
+ =20
+  <p>
+    <b>=E7=9B=AE=E5=BD=95=E3=80=82</b>
+
+
+    =E6=A0=87=E5=87=86=E5=BA=93=E4=BD=BF=E7=94=A8=E5=83=8F <code>crypto</co=
+de> =E3=80=81 <code>container</code> =E3=80=81 <code>encoding</code> =E5=92=
+=8C <code>image</code>
+
+
+    =E4=B9=8B=E7=B1=BB=E7=9A=84=E7=9B=AE=E5=BD=95=E6=9D=A5=E4=B8=BA=E7=9B=
+=B8=E5=85=B3=E7=9A=84=E5=8D=8F=E8=AE=AE=E5=92=8C=E7=AE=97=E6=B3=95=E5=8C=85=
+=E5=88=86=E7=BB=84=E3=80=82=E5=85=B6=E4=B8=AD=E6=AF=8F=E4=B8=AA=E7=9B=AE=E5=
+=BD=95=E5=86=85=E7=9A=84=E5=8C=85=E4=B9=8B=E9=97=B4=E5=B9=B6=E6=B2=A1=E6=9C=
+=89=E5=AE=9E=E9=99=85=E7=9A=84=E8=81=94=E7=B3=BB=EF=BC=8C
+
+
+    =E7=9B=AE=E5=BD=95=E5=8F=AA=E6=98=AF=E4=B8=BA=E4=BA=86=E4=BE=BF=E4=BA=
+=8E=E5=88=86=E7=B1=BB=E6=96=87=E4=BB=B6=E3=80=82=E5=8F=AA=E8=A6=81=E4=B8=8D=
+=E4=BC=9A=E5=AF=BC=E8=87=B4=E5=BE=AA=E7=8E=AF=E5=BC=95=E7=94=A8=EF=BC=8C=E4=
+=BB=BB=E4=BD=95=E5=8C=85=E9=83=BD=E8=83=BD=E5=AF=BC=E5=85=A5=E5=85=B6=E5=AE=
+=83=E7=9A=84=E5=8C=85=E3=80=82
+  </p>
+ =20
+
+ =20
+  <p>
+    =E5=B0=B1=E5=83=8F=E4=B8=8D=E5=90=8C=E5=8C=85=E4=B8=AD=E7=9A=84=E7=B1=
+=BB=E5=9E=8B=E5=8F=AF=E4=BB=A5=E5=90=8C=E5=90=8D=E8=80=8C=E4=B8=8D=E4=BC=9A=
+=E5=BC=95=E8=B5=B7=E6=B7=B7=E6=B7=86=EF=BC=8C=E4=B8=8D=E5=90=8C=E7=9B=AE=E5=
+=BD=95=E4=B8=AD=E7=9A=84=E5=8C=85=E4=B9=9F=E5=8F=AF=E4=BB=A5=E5=90=8C=E5=90=
+=8D=E3=80=82
+
+
+    =E4=BE=8B=E5=A6=82=EF=BC=8C<a href=3D"https://go-zh.org/pkg/runtime/ppr=
+of" target=3D"_blank">runtime/pprof</a> =E6=8F=90=E4=BE=9B=E4=BA=86
+
+
+    <a href=3D"https://code.google.com/p/gperftools" target=3D"_blank">ppro=
+f</a> =E5=89=96=E6=9E=90=E5=B7=A5=E5=85=B7=E6=89=80=E9=9C=80=E6=A0=BC=E5=BC=
+=8F=E7=9A=84=E5=89=96=E6=9E=90=E6=95=B0=E6=8D=AE=EF=BC=8C
+
+
+    =E8=80=8C <a href=3D"https://go-zh.org/pkg/net/http/pprof" target=3D"_b=
+lank">net/http/pprof</a>
+
+
+    =E5=88=99=E6=8F=90=E4=BE=9B=E4=BA=86=E6=8C=89=E8=BF=99=E7=A7=8D=E6=A0=
+=BC=E5=BC=8F=E5=B1=95=E7=A4=BA=E5=89=96=E6=9E=90=E6=95=B0=E6=8D=AE=E7=9A=84=
+HTTP=E7=AB=AF=E7=82=B9=E3=80=82=E7=94=A8=E6=88=B7=E4=BB=A3=E7=A0=81=E9=80=
+=9A=E8=BF=87=E5=8C=85=E8=B7=AF=E5=BE=84=E5=AF=BC=E5=85=A5=E8=AF=A5=E5=8C=85=
+=EF=BC=8C=E5=9B=A0=E6=AD=A4=E4=B8=8D=E4=BC=9A=E6=B7=B7=E6=B7=86=E3=80=82
+
+
+    =E8=8B=A5=E6=BA=90=E6=96=87=E4=BB=B6=E9=9C=80=E8=A6=81=E5=AF=BC=E5=85=
+=A5=E4=B8=A4=E4=B8=AA <code>pprof</code> =E5=8C=85=EF=BC=8C=E9=82=A3=E4=B9=
+=88=E5=8F=AF=E4=BB=A5=E5=B1=80=E9=83=A8=E5=9C=B0=E5=B0=86=E5=85=B6=E4=B8=AD=
+=E4=B9=8B=E4=B8=80=E6=88=96=E4=BA=8C=E8=80=85=E9=83=BD
+
+
+    <a href=3D"https://go-zh.org/ref/spec#Import_declarations" target=3D"_b=
+lank">=E9=87=8D=E5=91=BD=E5=90=8D</a>=E3=80=82=E5=9C=A8=E9=87=8D=E5=91=BD=
+=E5=90=8D=E5=B7=B2=E5=AF=BC=E5=85=A5=E5=8C=85=E6=97=B6=EF=BC=8C
+
+
+    =E5=B1=80=E9=83=A8=E5=90=8D=E4=B9=9F=E5=BA=94=E9=81=B5=E5=BE=AA=E5=8C=
+=85=E5=90=8D=E7=9A=84=E5=91=BD=E5=90=8D=E5=87=86=E5=88=99=EF=BC=88=E5=B0=8F=
+=E5=86=99=EF=BC=8C=E4=B8=8D=E4=BD=BF=E7=94=A8=E4=B8=8B=E5=88=92=E7=BA=BF <c=
+ode>under_scores</code> =E6=88=96=E6=B7=B7=E5=90=88=E5=A4=A7=E5=B0=8F=E5=86=
+=99 <code>mixedCaps</code> =EF=BC=89=E3=80=82
+  </p>
+ =20
+
+
+   =20
+     =20
+  <h4 id=3D"TOC_5.">=E4=B8=8D=E8=89=AF=E5=8C=85=E5=90=8D</h4>
+ =20
+ =20
+  <p>
+    =E4=B8=8D=E8=89=AF=E5=8C=85=E5=90=8D=E4=BC=9A=E8=AE=A9=E4=BB=A3=E7=A0=
+=81=E9=9A=BE=E4=BB=A5=E4=BD=BF=E7=94=A8=E4=B8=8E=E7=BB=B4=E6=8A=A4=E3=80=82=
+=E4=B8=8B=E9=9D=A2=E6=98=AF=E4=B8=80=E4=BA=9B=E8=AF=86=E5=88=AB=E5=8F=8A=E4=
+=BF=AE=E5=A4=8D=E4=B8=8D=E8=89=AF=E5=8C=85=E5=90=8D=E7=9A=84=E5=87=86=E5=88=
+=99=E3=80=82
+  </p>
+ =20
+
+ =20
+  <p>
+    <b>=E9=81=BF=E5=85=8D=E6=97=A0=E6=84=8F=E4=B9=89=E7=9A=84=E5=8C=85=E5=
+=90=8D=E3=80=82</b>
+
+
+    =E5=90=8D=E4=B8=BA <code>util</code> =E3=80=81 <code>common</code> =E6=
+=88=96 <code>misc</code> =E7=9A=84=E5=8C=85=E4=B8=8D=E4=BB=85=E6=97=A0=E6=
+=B3=95=E5=90=91=E7=94=A8=E6=88=B7=E4=BC=A0=E8=BE=BE=E5=85=B6=E4=B8=AD=E7=9A=
+=84=E5=86=85=E5=AE=B9=EF=BC=8C=E8=BF=98=E4=BC=9A=E8=AE=A9=E5=AE=83=E4=BB=AC=
+=E6=9B=B4=E9=9A=BE=E4=BB=A5=E4=BD=BF=E7=94=A8=EF=BC=8C
+
+
+    =E7=BB=B4=E6=8A=A4=E8=80=85=E4=B9=9F=E4=B8=8D=E6=98=93=E4=BF=9D=E6=8C=
+=81=E5=AE=83=E4=BB=AC=E7=9A=84=E4=B8=93=E7=94=A8=E6=80=A7=E3=80=82=E5=A6=82=
+=E6=AD=A4=E4=B8=80=E6=9D=A5=EF=BC=8C=E4=BE=9D=E8=B5=96=E5=85=B3=E7=B3=BB=E4=
+=BC=9A=E6=97=A5=E6=B8=90=E5=A4=8D=E6=9D=82=EF=BC=8C=E5=BE=92=E5=A2=9E=E7=BC=
+=96=E8=AF=91=E6=97=B6=E9=97=B4=EF=BC=8C=E8=BF=99=E5=9C=A8=E5=A4=A7=E5=9E=8B=
+=E7=A8=8B=E5=BA=8F=E4=B8=AD=E5=B0=A4=E7=94=9A=E3=80=82
+
+
+    =E7=94=B1=E4=BA=8E=E8=BF=99=E7=B1=BB=E5=8C=85=E5=90=8D=E8=BF=87=E4=BA=
+=8E=E9=80=9A=E7=94=A8=EF=BC=8C=E5=9B=A0=E6=AD=A4=E6=9B=B4=E6=98=93=E4=B8=8E=
+=E5=AE=A2=E6=88=B7=E4=BB=A3=E7=A0=81=E4=B8=AD=E5=AF=BC=E5=85=A5=E7=9A=84=E5=
+=85=B6=E5=AE=83=E5=8C=85=E5=90=8D=E7=9B=B8=E5=86=B2=E7=AA=81=EF=BC=8C=E7=94=
+=A8=E6=88=B7=E5=88=99=E5=BF=85=E9=A1=BB=E9=87=8D=E6=96=B0=E5=8F=96=E5=90=8D=
+=E6=9D=A5=E5=8A=A0=E4=BB=A5=E5=8C=BA=E5=88=86=E3=80=82
+  </p>
+ =20
+
+ =20
+  <p>
+    <b>=E6=8B=86=E5=88=86=E8=BF=87=E4=BA=8E=E9=80=9A=E7=94=A8=E7=9A=84=E5=
+=8C=85=E3=80=82</b>
+
+
+    =E4=BF=AE=E5=A4=8D=E8=BF=99=E6=A0=B7=E7=9A=84=E5=8C=85=E9=9C=80=E8=A6=
+=81=E5=8C=85=E5=90=AB=E9=80=9A=E7=94=A8=E5=90=8D=E5=85=83=E7=B4=A0=E7=9A=84=
+=E7=B1=BB=E5=9E=8B=E5=92=8C=E5=87=BD=E6=95=B0=EF=BC=8C=E5=B9=B6=E5=B0=86=E5=
+=AE=83=E4=BB=AC=E6=94=BE=E5=88=B0=E8=87=AA=E5=B7=B1=E7=9A=84=E5=8C=85=E4=B8=
+=AD=E3=80=82=E4=BE=8B=E5=A6=82=EF=BC=8C=E8=8B=A5=E4=BD=A0=E6=9C=89=E4=BB=A5=
+=E4=B8=8B=E4=BB=A3=E7=A0=81=EF=BC=9A
+  </p>
+ =20
+
+ =20
+  <div class=3D"code"><pre>package util
+func NewStringSet(...string) map[string]bool {...}
+func SortStringSet(map[string]bool) []string {...}</pre></div>
+ =20
+
+ =20
+  <p>
+    =E9=82=A3=E4=B9=88=E7=94=A8=E6=88=B7=E4=BB=A3=E7=A0=81=E7=9C=8B=E8=B5=
+=B7=E6=9D=A5=E4=BC=9A=E6=98=AF=E8=BF=99=E6=A0=B7=EF=BC=9A
+  </p>
+ =20
+
+ =20
+  <div class=3D"code"><pre>set :=3D util.NewStringSet("c", "a", "b")
+fmt.Println(util.SortStringSet(set))</pre></div>
+ =20
+
+ =20
+  <p>
+    =E5=B0=86=E8=BF=99=E4=BA=9B=E5=87=BD=E6=95=B0=E4=BB=8E <code>util</code=
+> =E7=A7=BB=E8=87=B3=E6=96=B0=E7=9A=84=E5=8C=85=E4=B8=AD=EF=BC=8C=E9=80=89=
+=E4=B8=80=E4=B8=AA=E4=B8=8E=E5=85=B6=E5=86=85=E5=AE=B9=E7=9B=B8=E7=A7=B0=E7=
+=9A=84=E5=8C=85=E5=90=8D=EF=BC=9A
+  </p>
+ =20
+
+ =20
+  <div class=3D"code"><pre>package stringset
+func New(...string) map[string]bool {...}
+func Sort(map[string]bool) []string {...}</pre></div>
+ =20
+
+ =20
+  <p>
+    =E9=82=A3=E4=B9=88=E7=94=A8=E6=88=B7=E4=BB=A3=E7=A0=81=E4=BC=9A=E5=8F=
+=98=E6=88=90=E8=BF=99=E6=A0=B7=EF=BC=9A
+  </p>
+ =20
+
+ =20
+  <div class=3D"code"><pre>set :=3D stringset.New("c", "a", "b")
+fmt.Println(stringset.Sort(set))</pre></div>
+ =20
+
+ =20
+  <p>
+    =E4=B8=80=E6=97=A6=E4=BD=A0=E5=81=9A=E5=87=BA=E8=BF=99=E4=BA=9B=E6=94=
+=B9=E5=8F=98=EF=BC=8C=E4=BE=BF=E6=9B=B4=E5=AE=B9=E6=98=93=E7=9C=8B=E5=87=BA=
+=E5=A6=82=E4=BD=95=E6=94=B9=E8=BF=9B=E6=96=B0=E5=8C=85=E4=BA=86=EF=BC=9A
+  </p>
+ =20
+
+ =20
+  <div class=3D"code"><pre>package stringset
+type Set map[string]bool
+func New(...string) Set {...}
+func (s Set) Sort() []string {...}</pre></div>
+ =20
+
+ =20
+  <p>
+    =E8=BF=99=E6=A0=B7=E4=BB=A5=E6=9D=A5=E7=94=A8=E6=88=B7=E4=BB=A3=E7=A0=
+=81=E5=B0=86=E6=9B=B4=E5=8A=A0=E7=AE=80=E6=B4=81=EF=BC=9A
+  </p>
+ =20
+
+ =20
+  <div class=3D"code"><pre>set :=3D stringset.New("c", "a", "b")
+fmt.Println(set.Sort())</pre></div>
+ =20
+
+ =20
+  <p>
+    =E5=90=8D=E5=AD=97=E6=98=AF=E8=AE=BE=E8=AE=A1=E5=8C=85=E7=9A=84=E5=85=
+=B3=E9=94=AE=E3=80=82=E8=AF=B7=E4=BB=8E=E4=BD=A0=E7=9A=84=E9=A1=B9=E7=9B=AE=
+=E4=B8=AD=E5=8A=AA=E5=8A=9B=E6=B6=88=E9=99=A4=E6=97=A0=E6=84=8F=E4=B9=89=E7=
+=9A=84=E5=8C=85=E5=90=8D=E3=80=82
+  </p>
+ =20
+
+ =20
+  <p>
+    <b>=E5=88=AB=E6=8A=8A=E6=89=80=E6=9C=89API=E9=83=BD=E5=A1=9E=E8=BF=9B=
+=E4=B8=80=E4=B8=AA=E5=8C=85=E9=87=8C=E3=80=82</b>
+
+
+    =E6=9C=89=E4=BA=9B=E5=A5=BD=E5=BF=83=E7=9A=84=E7=A8=8B=E5=BA=8F=E5=91=
+=98=E4=BC=9A=E5=B0=86=E4=BB=96=E4=BB=AC=E7=9A=84=E7=A8=8B=E5=BA=8F=E6=9A=B4=
+=E9=9C=B2=E5=87=BA=E7=9A=84=E6=89=80=E6=9C=89=E6=8E=A5=E5=8F=A3=E9=83=BD=E6=
+=94=BE=E5=88=B0=E4=B8=80=E4=B8=AA=E5=8C=85=E9=87=8C=EF=BC=8C=E5=8F=96=E5=90=
+=8D=E4=B8=BA <code>api</code> =E3=80=81 <code>types</code>  =E3=80=81=E6=88=
+=96
+
+
+    <code>interfaces</code> =EF=BC=8C=E4=BB=96=E4=BB=AC=E8=A7=89=E7=9D=80=
+=E8=BF=99=E6=A0=B7=E4=BC=9A=E6=9B=B4=E6=98=93=E4=BA=8E=E6=89=BE=E5=88=B0=E4=
+=BB=A3=E7=A0=81=E5=BA=93=E7=9A=84=E5=85=A5=E5=8F=A3=E7=82=B9=E3=80=82=E8=BF=
+=99=E6=98=AF=E4=B8=8D=E5=AF=B9=E7=9A=84=E3=80=82=E8=BF=99=E7=A7=8D=E5=8C=85=
+=E9=81=AD=E9=81=87=E5=88=B0=E7=9A=84=E9=97=AE=E9=A2=98=E5=92=8C=E5=90=8D=E4=
+=B8=BA
+
+
+    <code>util</code> =E6=88=96 <code>common</code> =E7=9A=84=E5=8C=85=E7=
+=9B=B8=E5=90=8C=EF=BC=8C=E5=8D=B3=E6=97=A0=E8=8A=82=E5=88=B6=E5=9C=B0=E5=A2=
+=9E=E9=95=BF=EF=BC=8C=E4=B8=8D=E4=B8=BA=E7=94=A8=E6=88=B7=E6=8F=90=E4=BE=9B=
+=E6=8C=87=E5=AF=BC=EF=BC=8C=E7=A7=AF=E7=B4=AF=E4=BE=9D=E8=B5=96=EF=BC=8C=E4=
+=BB=A5=E5=8F=8A=E5=92=8C=E5=85=B6=E5=AE=83=E5=AF=BC=E5=85=A5=E5=86=B2=E7=AA=
+=81=E3=80=82
+
+
+    =E8=AF=B7=E6=8B=86=E5=88=86=E5=AE=83=E4=BB=AC=EF=BC=8C=E6=88=96=E8=AE=
+=B8=E5=8F=AF=E4=BB=A5=E7=94=A8=E7=9B=AE=E5=BD=95=E5=B0=86=E5=85=AC=E5=85=B1=
+=E5=8C=85=E4=BB=8E=E5=AE=9E=E7=8E=B0=E4=B8=AD=E5=88=86=E7=A6=BB=E5=87=BA=E6=
+=9D=A5=E3=80=82
+  </p>
+ =20
+
+ =20
+  <p>
+    <b>=E9=81=BF=E5=85=8D=E4=B8=8D=E5=BF=85=E8=A6=81=E7=9A=84=E5=8C=85=E5=
+=90=8D=E5=86=B2=E7=AA=81=E3=80=82</b>
+
+
+    =E5=BD=93=E4=B8=8D=E5=90=8C=E7=9B=AE=E5=BD=95=E4=B8=AD=E7=9A=84=E5=8C=
+=85=E5=90=8D=E7=9B=B8=E5=90=8C=E6=97=B6=EF=BC=8C=E7=BB=8F=E5=B8=B8=E4=B8=80=
+=E8=B5=B7=E4=BD=BF=E7=94=A8=E7=9A=84=E5=8C=85=E5=BA=94=E8=AF=A5=E6=9C=89=E4=
+=B8=8D=E5=90=8C=E7=9A=84=E5=90=8D=E5=AD=97=E3=80=82=E8=BF=99=E8=83=BD=E9=81=
+=BF=E5=85=8D=E6=B7=B7=E6=B7=86=EF=BC=8C
+
+
+    =E5=87=8F=E5=B0=91=E5=9C=A8=E7=94=A8=E6=88=B7=E4=BB=A3=E7=A0=81=E4=B8=
+=AD=E5=B1=80=E9=83=A8=E9=87=8D=E5=91=BD=E5=90=8D=E7=9A=84=E5=BF=85=E8=A6=81=
+=E3=80=82=E5=90=8C=E7=90=86=EF=BC=8C=E4=B9=9F=E5=BA=94=E5=BD=93=E9=81=BF=E5=
+=85=8D=E5=B0=86 <code>io</code> =E6=88=96 <code>http</code>
+
+
+    =E4=B9=8B=E7=B1=BB=E5=B9=BF=E6=B3=9B=E4=BD=BF=E7=94=A8=E7=9A=84=E6=A0=
+=87=E5=87=86=E5=8C=85=E7=9A=84=E5=90=8D=E5=AD=97=E7=94=A8=E4=BD=9C=E5=8C=85=
+=E5=90=8D=E3=80=82
+  </p>
+ =20
+
+
+   =20
+     =20
+  <h4 id=3D"TOC_6.">=E7=BB=93=E8=AE=BA</h4>
+ =20
+ =20
+  <p>
+    Go =E7=A8=8B=E5=BA=8F=E7=9A=84=E5=8C=85=E5=90=8D=E6=98=AF=E8=89=AF=E5=
+=A5=BD=E5=91=BD=E5=90=8D=E7=9A=84=E6=A0=B8=E5=BF=83=EF=BC=8C=E8=AF=B7=E8=8A=
+=B1=E7=82=B9=E6=97=B6=E9=97=B4=E9=80=89=E5=A5=BD=E5=8C=85=E5=90=8D=E5=B9=B6=
+=E7=BB=84=E7=BB=87=E5=A5=BD=E4=BD=A0=E7=9A=84=E4=BB=A3=E7=A0=81=EF=BC=8C
+
+
+    =E8=BF=99=E8=83=BD=E5=B8=AE=E5=8A=A9=E7=94=A8=E6=88=B7=E7=90=86=E8=A7=
+=A3=E5=B9=B6=E4=BD=BF=E7=94=A8=E4=BD=A0=E7=9A=84=E5=8C=85=EF=BC=8C=E4=B9=9F=
+=E6=9C=89=E5=8A=A9=E4=BA=8E=E7=BB=B4=E6=8A=A4=E8=80=85=E4=BC=98=E9=9B=85=E5=
+=9C=B0=E5=8F=91=E5=B1=95=E5=AE=83=E4=BB=AC=E3=80=82
+  </p>
+ =20
+
+
+   =20
+     =20
+  <h4 id=3D"TOC_7.">=E6=89=A9=E5=B1=95=E9=98=85=E8=AF=BB</h4>
+ =20
+  <ul>
+ =20
+    <li><a href=3D"https://go-zh.org/doc/effective_go.html" target=3D"_blan=
+k">=E5=AE=9E=E6=95=88 Go =E7=BC=96=E7=A8=8B</a></li>
+ =20
+    <li><a href=3D"https://go-zh.org/doc/code.html" target=3D"_blank">=E5=
+=A6=82=E4=BD=95=E7=BC=96=E5=86=99 Go =E4=BB=A3=E7=A0=81</a></li>
+ =20
+    <li><a href=3D"http://blog.go-zh.org/organizing-go-code" target=3D"_bla=
+nk">=E7=BB=84=E7=BB=87 Go =E4=BB=A3=E7=A0=81=EF=BC=882012=E5=B9=B4=E7=9A=84=
+=E5=8D=9A=E5=AE=A2=EF=BC=89</a></li>
+ =20
+    <li><a href=3D"http://talks.go-zh.org/2014/organizeio.slide" target=3D"=
+_blank">=E7=BB=84=E7=BB=87 Go =E4=BB=A3=E7=A0=81=EF=BC=882014=E5=B9=B4 Goog=
+le I/O =E6=BC=94=E8=AE=B2=EF=BC=89</a></li>
+ =20
+  </ul>
+
+
+   =20
+ =20
+
+
+	=09
+			<p class=3D"author">Sameer Ajmani =E7=BC=96=E5=86=99</p>
+	=09
+	</div>
+
+=09
+
+</div>
+
+<div id=3D"footer">
+	<p>
+	=E9=99=A4<a href=3D"https://developers.google.com/site-policies#restrictio=
+ns">=E7=89=B9=E5=88=AB=E6=B3=A8=E6=98=8E</a>=E5=A4=96=EF=BC=8C
+	=E6=9C=AC=E9=A1=B5=E5=86=85=E5=AE=B9=E5=9D=87=E9=87=87=E7=94=A8=E7=9F=A5=
+=E8=AF=86=E5=85=B1=E4=BA=AB-=E7=BD=B2=E5=90=8D=EF=BC=88CC-BY=EF=BC=893.0 =
+=E5=8D=8F=E8=AE=AE=E6=8E=88=E6=9D=83=EF=BC=8C=E4=BB=A3=E7=A0=81=E9=87=87=E7=
+=94=A8<a href=3D"https://go-zh.org/LICENSE">BSD=E5=8D=8F=E8=AE=AE</a>=E6=8E=
+=88=E6=9D=83=E3=80=82<br>
+	<a href=3D"https://go-zh.org/doc/tos.html">=E6=9C=8D=E5=8A=A1=E6=9D=A1=E6=
+=AC=BE</a> |=20
+	<a href=3D"http://www.google.com/intl/en/policies/privacy/">=E9=9A=90=E7=
+=A7=81=E6=94=BF=E7=AD=96</a>
+	</p>
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+</body><template shadowmode=3D"v0"><shadow></shadow><style></style></templa=
+te></html>
+------MultipartBoundary--W17NWD5499nd8bguMH6sExiD2QLdHkIgLHNvwEkkRR----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://blog.go-zh.org/lib/godoc/style.css
+
+@charset "utf-8";
+
+body { margin: 0px; font-family: Helvetica, Arial, sans-serif; font-size: 1=
+6px; }
+
+pre, code { font-family: Menlo, monospace; font-size: 14px; }
+
+pre { line-height: 18px; }
+
+pre .comment { color: rgb(0, 102, 0); }
+
+pre .highlight, pre .highlight-comment, pre .selection-highlight, pre .sele=
+ction-highlight-comment { background: rgb(255, 255, 0); }
+
+pre .selection, pre .selection-comment { background: rgb(255, 150, 50); }
+
+pre .ln { color: rgb(153, 153, 153); }
+
+body { color: rgb(34, 34, 34); }
+
+a, .exampleHeading .text { color: rgb(55, 94, 171); text-decoration: none; =
+}
+
+a:hover, .exampleHeading .text:hover { text-decoration: underline; }
+
+p, pre, ul, ol { margin: 20px; }
+
+pre { background: rgb(233, 233, 233); padding: 10px; border-radius: 5px; }
+
+h1, h2, h3, h4, .rootHeading { margin: 20px 0px; padding: 0px; color: rgb(5=
+5, 94, 171); font-weight: bold; }
+
+h1 { font-size: 24px; }
+
+h2 { font-size: 20px; background: rgb(224, 235, 245); padding: 2px 5px; }
+
+h3 { font-size: 20px; }
+
+h3, h4 { margin: 20px 5px; }
+
+h4 { font-size: 16px; }
+
+.rootHeading { font-size: 20px; margin: 0px; }
+
+dl { margin: 20px; }
+
+dd { margin: 2px 20px; }
+
+dl, dd { font-size: 14px; }
+
+div#nav table td { vertical-align: top; }
+
+table.dir th { text-align: left; }
+
+table.dir td { word-wrap: break-word; vertical-align: top; }
+
+div#page.wide table.dir td.name { white-space: nowrap; }
+
+.alert { color: rgb(170, 0, 0); }
+
+div#heading { float: left; margin: 0px 0px 10px; padding: 21px 0px; font-si=
+ze: 20px; font-weight: normal; }
+
+div#heading a { color: rgb(34, 34, 34); text-decoration: none; }
+
+div#topbar { background: rgb(224, 235, 245); height: 64px; overflow: hidden=
+; }
+
+body { text-align: center; }
+
+div#page { width: 100%; }
+
+div#page > .container, div#topbar > .container { text-align: left; margin-l=
+eft: auto; margin-right: auto; padding: 0px 20px; width: 900px; }
+
+div#page.wide > .container, div#topbar.wide > .container { width: auto; }
+
+div#plusone { float: right; clear: right; margin-top: 5px; }
+
+div#footer { text-align: center; color: rgb(102, 102, 102); font-size: 14px=
+; margin: 40px 0px; }
+
+div#menu > a, div#menu > input, div#learn .buttons a, div.play .buttons a, =
+div#blog .read a { padding: 10px; text-decoration: none; font-size: 16px; b=
+order-radius: 5px; }
+
+div#playground .buttons a, div#menu > a, div#menu > input { border: 1px sol=
+id rgb(55, 94, 171); }
+
+div#playground .buttons a, div#menu > a { color: white; background: rgb(55,=
+ 94, 171); }
+
+#playgroundButton.active { background: white; color: rgb(55, 94, 171); }
+
+a#start, div#learn .buttons a, div.play .buttons a, div#blog .read a { colo=
+r: rgb(34, 34, 34); border: 1px solid rgb(55, 94, 171); background: rgb(224=
+, 235, 245); }
+
+.download { width: 150px; }
+
+div#menu { float: right; min-width: 590px; padding: 10px 0px; text-align: r=
+ight; }
+
+div#menu > a { margin-right: 5px; margin-bottom: 10px; padding: 10px; }
+
+div#menu > input { position: relative; top: 1px; width: 60px; background: w=
+hite; color: rgb(34, 34, 34); }
+
+div#menu > input.inactive { color: rgb(153, 153, 153); }
+
+div.left { float: left; clear: left; }
+
+div.right { float: right; clear: right; }
+
+div.left, div.right { width: 415px; }
+
+div#learn, div#about { padding-top: 20px; }
+
+div#learn h2, div#about { margin: 0px; }
+
+div#about { font-size: 20px; }
+
+div#about { height: 96px; }
+
+div#gopher { background: url("/doc/gopher/frontpage.png") center top no-rep=
+eat; height: 155px; }
+
+a#start { display: block; padding: 10px; text-align: center; text-decoratio=
+n: none; border-radius: 5px; }
+
+a#start .big { display: block; font-weight: bold; font-size: 20px; }
+
+a#start .desc { display: block; font-size: 14px; font-weight: normal; margi=
+n-top: 5px; }
+
+div#learn .popout { float: right; display: block; cursor: pointer; font-siz=
+e: 12px; background: url("/doc/share.png") right top no-repeat; padding: 5p=
+x 27px; }
+
+div#learn pre, div#learn textarea { padding: 0px; margin: 0px; font-family:=
+ Menlo, monospace; font-size: 14px; }
+
+div#learn .input { padding: 10px; margin-top: 10px; height: 150px; border-t=
+op-left-radius: 5px; border-top-right-radius: 5px; }
+
+div#learn .input textarea { width: 100%; height: 100%; border: none; outlin=
+e: none; resize: none; }
+
+div#learn .output { padding: 10px; height: 59px; overflow: auto; border-bot=
+tom-right-radius: 5px; border-bottom-left-radius: 5px; border-top: none !im=
+portant; }
+
+div#learn .output pre { padding: 0px; border-radius: 0px; }
+
+div#learn .input, div#learn .input textarea, div#learn .output, div#learn .=
+output pre { background: rgb(255, 255, 216); }
+
+div#learn .input, div#learn .output { border: 1px solid rgb(55, 94, 171); }
+
+div#learn .buttons { float: right; padding: 20px 0px 10px; text-align: righ=
+t; }
+
+div#learn .buttons a { height: 16px; margin-left: 5px; padding: 10px; }
+
+div#learn .toys { margin-top: 8px; }
+
+div#learn .toys select { border: 1px solid rgb(55, 94, 171); margin: 0px; }
+
+div#learn .output .exit { display: none; }
+
+div#blog, div#video { margin-top: 40px; }
+
+div#blog > a, div#blog > div, div#blog > h2, div#video > a, div#video > div=
+, div#video > h2 { margin-bottom: 10px; }
+
+div#blog .title, div#video .title { display: block; font-size: 20px; }
+
+div#blog .when { color: rgb(102, 102, 102); font-size: 14px; }
+
+div#blog .read { text-align: right; }
+
+.toggleButton { cursor: pointer; }
+
+.toggle .collapsed { display: block; }
+
+.toggle .expanded { display: none; }
+
+.toggleVisible .collapsed { display: none; }
+
+.toggleVisible .expanded { display: block; }
+
+table.codetable { margin-left: auto; margin-right: auto; border-style: none=
+; }
+
+table.codetable td { padding-right: 10px; }
+
+hr { border-style: solid none none; border-top-width: 1px; border-top-color=
+: black; }
+
+img.gopher { float: right; margin-left: 10px; margin-bottom: 10px; z-index:=
+ -1; }
+
+h2 { clear: right; }
+
+div.play { padding: 0px 20px 40px; }
+
+div.play pre, div.play textarea, div.play .lines { padding: 0px; margin: 0p=
+x; font-family: Menlo, monospace; font-size: 14px; }
+
+div.play .input { padding: 10px; margin-top: 10px; border-top-left-radius: =
+5px; border-top-right-radius: 5px; overflow: hidden; }
+
+div.play .input textarea { width: 100%; height: 100%; border: none; outline=
+: none; resize: none; overflow: hidden; }
+
+div#playground .input textarea { overflow: auto; resize: auto; }
+
+div.play .output { padding: 10px; max-height: 200px; overflow: auto; border=
+-bottom-right-radius: 5px; border-bottom-left-radius: 5px; border-top: none=
+ !important; }
+
+div.play .output pre { padding: 0px; border-radius: 0px; }
+
+div.play .input, div.play .input textarea, div.play .output, div.play .outp=
+ut pre { background: rgb(255, 255, 216); }
+
+div.play .input, div.play .output { border: 1px solid rgb(55, 94, 171); }
+
+div.play .buttons { float: right; padding: 20px 0px 10px; text-align: right=
+; }
+
+div.play .buttons a { height: 16px; margin-left: 5px; padding: 10px; cursor=
+: pointer; }
+
+.output .stderr { color: rgb(153, 51, 51); }
+
+.output .system { color: rgb(153, 153, 153); }
+
+#playgroundButton, div#playground { display: none; }
+
+div#playground { position: absolute; top: 63px; right: 20px; padding: 0px 1=
+0px 10px; z-index: 1; text-align: left; background: rgb(224, 235, 245); bor=
+der-right: 1px solid rgb(176, 187, 197); border-bottom: 1px solid rgb(176, =
+187, 197); border-left: 1px solid rgb(176, 187, 197); border-image: initial=
+; border-top: none; border-bottom-left-radius: 5px; border-bottom-right-rad=
+ius: 5px; }
+
+div#playground .code { width: 520px; height: 200px; }
+
+div#playground .output { height: 100px; }
+
+#content .code pre, #content .playground pre, #content .output pre { margin=
+: 0px; padding: 0px; background: none; border: none; outline: transparent s=
+olid 0px; overflow: auto; }
+
+#content .playground .number, #content .code .number { color: rgb(153, 153,=
+ 153); }
+
+#content .code, #content .playground, #content .output { width: auto; margi=
+n: 20px; padding: 10px; border-radius: 5px; }
+
+#content .code, #content .playground { background: rgb(233, 233, 233); }
+
+#content .output { background: rgb(32, 32, 32); }
+
+#content .output .stdout, #content .output pre { color: rgb(230, 230, 230);=
+ }
+
+#content .output .stderr, #content .output .error { color: rgb(244, 74, 63)=
+; }
+
+#content .output .system, #content .output .exit { color: rgb(255, 209, 77)=
+; }
+
+#content .buttons { position: relative; float: right; top: -50px; right: 30=
+px; }
+
+#content .output .buttons { top: -60px; right: 0px; height: 0px; }
+
+#content .buttons .kill { display: none; visibility: hidden; }
+
+a.error { font-weight: bold; color: white; background-color: darkred; borde=
+r-radius: 4px; padding: 2px 4px; }
+
+div.english { display: none; }
+
+.en_visible { display: block; }
+
+p.tnote { background: rgb(0, 249, 233); padding: 10px; border-radius: 5px; }
+------MultipartBoundary--W17NWD5499nd8bguMH6sExiD2QLdHkIgLHNvwEkkRR------
