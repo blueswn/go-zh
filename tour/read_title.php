@@ -9,7 +9,7 @@ foreach ($list as $filename) {
       $content = file_get_contents('./'.$filename);
       $contents = explode(PHP_EOL, $content);
       $title = str_replace('## ', '  * [', $contents[0]);
-      $title = $title.'](https://github.com/alpha2018/go-zh/blob/master/tour/'.$filename.')';
+      $title = $title.'](https://github.com/alphaxlvii/go-zh/blob/master/tour/'.$filename.')';
       $titles[] = $title;
 
     }
