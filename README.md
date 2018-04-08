@@ -1,6 +1,6 @@
 # Go 编程语言
 
-* [文档](https://github.com/alpha2018/go-zh/blob/master/doc.md)
+* [文档](https://github.com/alphaxlvii/go-zh/blob/master/doc.md)
 * 包
 * 项目
 * 帮助
