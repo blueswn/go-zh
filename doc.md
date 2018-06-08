@@ -12,7 +12,7 @@ Go 语言具有很强的表达能力，它简洁、清晰而高效。得益于�
 
 ## 学习Go语言
 
-### [Go语言之旅](https://github.com/alphaxlvii/go-zh/blob/master/tour/directory.md)
+### [Go语言之旅](https://github.com/gnefiy/go-zh/blob/master/tour/directory.md)
 
 Go 语言的交互式简介，它分为三节。第一节覆盖了基本语法及数据结构，第二节讨论了方法与接口， 第三节则简单介绍了 Go 的并发原语。每节末尾都有几个练习，你可以对自己的所学进行实践。 你可以 在线学习 或 安装到本地。
 
