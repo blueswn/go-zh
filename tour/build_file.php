@@ -22,9 +22,9 @@ foreach ($range as $key => $value) {
 
 
 ## 链接
-* [目录](https://github.com/alphaxlvii/go-zh/blob/master/tour/directory.md)
-* 上一节：[$lastname （）](https://github.com/alphaxlvii/go-zh/blob/master/tour/$lastname.md)
-* 下一节：[$nextname （）](https://github.com/alphaxlvii/go-zh/blob/master/tour/$nextname.md)
+* [目录](https://github.com/gnefiy/go-zh/blob/master/tour/directory.md)
+* 上一节：[$lastname （）](https://github.com/gnefiy/go-zh/blob/master/tour/$lastname.md)
+* 下一节：[$nextname （）](https://github.com/gnefiy/go-zh/blob/master/tour/$nextname.md)
 ";
 
       file_put_contents($filename.'.md', $content);
