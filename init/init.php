@@ -25,7 +25,7 @@ foreach ($directories as $dir) {
         if ($index < 10) {
             $index = "0$index";
         }
-        $index = "1$index";
+
         $filename = "$index.{$pageTitle}.md";
         file_put_contents("$path/$dir/$filename", $pageContent);
     }
